@@ -10,10 +10,9 @@ class Person {
   }
 }
 
-// Employee Class Definition that Inherits from Person
 class Employee extends Person {
   constructor(name, age, jobTitle) {
-    super(name, age);  // Call the parent class constructor
+    super(name, age);  
     this.jobTitle = jobTitle;
   }
 
